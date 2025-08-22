@@ -1,0 +1,161 @@
+*{
+ margin: 0;
+ padding: o;
+ 
+}
+body{
+    background-color:lightgrey;
+}
+.container{
+    background-color:lightgrey;
+    margin-left: 150px;
+    margin-top: 100px;
+     height: 560px;
+    width: 620px;
+}
+.container button{
+    width:80px;
+    height:40px;
+
+    background-color: blue;
+    border:dash;
+    border-radius:10px;
+    border-color:transparent;
+    font-size: 20px;
+    color:white;
+    margin-bottom: 10px;
+    
+}
+.container ul{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 40px;
+
+    
+}
+.container p{
+    margin-top: 30px;
+    font-size: 20px;
+    
+
+}
+form{
+    width: 800.5px;
+    height: 2000px;
+    border:1px solid transparent;
+    margin-left: 450px;
+    margin-bottom: 100px;
+    background-color: white;
+    transform: translateY(-660px);
+    
+
+
+}
+nav{
+    background-color: white;
+    border-bottom: 1px solid grey;
+    border-color: grey;
+}
+nav h3{
+    margin-right:50px;
+}
+nav ul{
+    list-style: none ;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+nav ul li{
+    gap:10px;
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+    
+}
+nav ul li a{
+    color: black;
+}
+nav ul button{
+    margin-left: 50px;
+     background-color: blue;
+    border:dash;
+    border-radius:20px;
+    border-color:transparent;
+    font-size: 10px;
+    color:white;
+}
+.hero-page{
+    width:10px;
+    height: 10px;
+}
+.hero-page img{
+    width: 500px;
+    height: 400px;
+    margin-left: 300px;
+
+}
+.container2{
+    margin-left: 50px;
+    margin-top:100px;
+
+}
+.container2 h1{
+    font-size:40px;
+    font-weight:600;
+
+}
+.container2 p{
+    font-size:11px;
+    margin-top: 10px;
+}
+.container2 input{
+    width:200px;
+    height: 18px;
+    margin-top:20px;
+    border-radius: 200px;
+    padding: 10px;
+    margin-right:10px;
+    border:1px solid grey;
+}
+.container2 button{
+     background-color: blue;
+    border:dash;
+    border-radius:20px;
+    border-color:transparent;
+    font-size: 10px;
+    color:white;
+    padding: 13px;
+}
+.container3{
+    height: 200px;
+    margin-top: 100px;
+    background-color:azure;
+}
+.container3 h3{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    font-size:20px;
+}
+.container3 img{
+    margin:20px;
+}
+.container4{
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
+#box2,#box4{
+    margin-left: 200px;
+    transform:translateY(-53px);
+}
+.container5{
+    width: 400px;
+    margin-left: 420px;
+    transform: translateY(-220px);
+}
+.container5 p{
+    font-size: 16px;
+    margin: 20px;
+    margin-right: 100px;
+}

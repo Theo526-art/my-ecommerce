@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop
+        
+    </title>
+    <link rel="stylesheet" href="shop.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <nav>
+        <h2><i class="ri-leaf-fill"></i> Verdant Leaves</h2>
+        <div class="nav-container">
+            <ul>
+                <li><a href="index.html">TEA COLLECTIONS</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact us.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="nav-icons">
+            <ul>
+                <li><a href="#"><i class="ri-search-line"></i></a></li>
+                <li><a href="#"><i class="ri-contacts-fill"></i></a></li>
+                <li id="cart-icon">
+                    <a href="#"><i class="ri-shopping-bag-4-line"></i></a>
+                    <span id="cart-count">0</span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="hero-image" alt="Tea plantation">
+     <div class="whole-container">
+    <h1>Our Tea Collection</h1>
+    <a href="#" class="cart-link" id="cart-link">View Cart</a>
+     </div>
+    <div class="products" id="product-list"></div>
+
+    <!-- Hidden Cart Panel -->
+    <div class="cart-panel" id="cartPanel">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button class="close-cart" id="closeCart">
+                <i class="ri-close-large-fill"></i>
+            </button>
+        </div>
+        
+        <div class="cart-content">
+            <div class="cart-items" id="cartItems">
+                <div class="empty-cart">
+                   <i class="ri-shopping-cart-line"></i>
+                    <p>Your cart is empty</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart-summary">
+            <div class="summary-line">
+                <span>Subtotal:</span>
+                <span id="cart-subtotal">$0.00</span>
+            </div>
+            <div class="summary-line">
+                <span>Shipping:</span>
+                <span id="cart-shipping">$0.00</span>
+            </div>
+            <div class="summary-line total">
+                <span>Total:</span>
+                <span id="cart-total">$0.00</span>
+            </div>
+            
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <footer>
+        <div class="foot-container">
+            <h3>COLLECTIONS</h3>
+            <ul>
+                <li><a href="blacktea.html">Black teas</a></li>
+                <li><a href="#">Green teas tea</a></li>
+                <li><a href="#">White teas</a></li>
+                <li><a href="#">Herbal tea</a></li>
+                <li><a href="#">Matcha</a></li>
+                <li><a href="#">Chai</a></li>
+                <li><a href="#">Oolong</a></li>
+                <li><a href="#">Rooibos</a></li>
+                <li><a href="#">Teaware</a></li>
+            </ul>
+        </div>
+         <div class="foot-container">
+            <h3>LEARN</h3>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">About our teas</a></li>
+                <li><a href="#">Tea Academy</a></li>
+            </ul>
+        </div>
+         <div class="foot-container">
+            <h3>CUSTOMER</h3>
+            <ul>
+                <li><a href="#">Ordering and payment</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Privacy and policy</a></li>
+                <li><a href="#">Terms and conditions</a></li>
+            </ul>
+        </div>
+         <div class="foot-container">
+            <h3>CONTACT US</h3>
+            <ul>
+                <li><a href="#">Mib plaza, gwarimpa, Abuja</a></li>
+                <li><a href="#">Email: agihtheophilus488@gmail.com</a></li>
+                <li><a href="#">Tel: +2349065031866</a></li>
+            </ul>
+        </div>
+    </footer>
+  <script src="product.js"></script>
+</body>
+</html>
